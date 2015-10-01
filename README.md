@@ -25,7 +25,7 @@ Name | Type | Example
  size    | [Object::height:[Number], width:[Number]]  {height: 640 , width: 960 }
  color   | [Object::r:[Number], g:[Number], b:[Number]] | {r: 205, g:16 , b: 66}
  swing   | [Object::r:[Number], g:[Number], b:[Number]]  |{r: 205, g:16 , b: 66}
- channel | [Object::r:[Boolean], g:[Boolean], b:[Boolean]]  {r: false, g: true, b: false}
+ channel | [Object::r:[Boolean], g:[Boolean], b:[Boolean]] | {r: false, g: true, b: false}
 
 I recommend a structure like so for the effects function
 
