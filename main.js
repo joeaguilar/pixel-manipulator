@@ -54,41 +54,6 @@ return p;
 }
 
 
-// function getSecondImageData () {
-//   return new Promise(
-//     function(resolve, reject) {
-//       try {
-//         var secondImage = document.querySelector('#second-file').files[0];
-//         var canvaser = document.createElement('canvas');
-//         var btx = canvaser.getContext('2d');
-//             canvaser.setAttribute('id', 'bablyos');
-//         var reader = new FileReader();
-//             reader.onload = function(event) {
-//               try {
-//                 var img2 = new Image();
-//                 img2.onload = function() {
-//                   canvaser.width = document.querySelector('#ultros').width;
-//                   canvaser.height = document.querySelector('#ultros').height;
-//                   btx.drawImage(img2,0,0);
-//                   var pImgData = btx.getImageData(0, 0, canvaser.width, canvaser.height);
-//                   paramsArray = pImgData.data;
-//                   resolve(paramsArray);// resolve the promise
-//                 }
-//                 img2.src = event.target.result;
-//               } catch (e) {
-//                 alert('could not read file(s)');
-//               }
-//             }
-//             reader.readAsDataURL(secondImage);
-//       } catch (e) {
-//         window.alert('Something is not right here...');
-//         console.log(e);
-//         reject(e); // reject the promise
-//         return;
-//       }
-//     })
-// }
-
 
 function finalEffects (chunk, dupBuffer, options) {
   var renderIntent = options.render || 'normal';
