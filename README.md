@@ -1,4 +1,4 @@
-# pixel-manipulator
+# Pixel Manipulator
 
 This is a personal project of mine to apply various effects to images via a web interface.
 
