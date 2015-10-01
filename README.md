@@ -5,7 +5,7 @@ This is a personal project of mine to apply various effects to images via a web 
 
 To modify the effects, add an effects to the effects object like so
 
-        effect.cooleffectname = function(c, o, c2){
+        effects.cooleffectname = function(c, o, c2){
          // Do stuff in here...
         }
 
