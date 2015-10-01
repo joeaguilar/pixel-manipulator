@@ -64,3 +64,6 @@ effects.photon = function (chunk, opts) {
     
 }
 ```
+
+
+Have fun!
