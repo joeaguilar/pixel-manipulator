@@ -7,7 +7,8 @@ To modify the effects, add an effects to the effects object like so:
 ```javascript
 effects.cooleffectname = function(c, o, c2){
  // Do stuff in here...
-}```
+}
+```
 
 "c" is a Uint8Array passed from the first file input. 
 "o" is the options object.
@@ -42,7 +43,6 @@ var paramsArray = paramsArray || chunk;
   number of times to create a variety of presets
 
 ```javascript
-
 effects.photon = function (chunk, opts) {
 
     var opts = opts || {};
@@ -63,5 +63,4 @@ effects.photon = function (chunk, opts) {
     }
     
 }
-
 ```
