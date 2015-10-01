@@ -16,16 +16,16 @@ effects.cooleffectname = function(c, o, c2){
 
 The options object contains  parameters passed in via the UI. 
 
-Name | Type | Extra
+Name | Type | Example
 --- | --- | ---
- noise | [Boolean] 
- render | [String] 
- threshold | [Number]
- gamma  | [Number::Float] | 0.0 - 5.0
- size | [Object] | {height: [Number], width: [Number] }
- color | [Object] | {r: [Number], g: [Number], b: [Number]}
- swing | [Object] | {r: [Number], g: [Number], b: [Number] }
- channel [Object] | {r: [Boolean], g: [Boolean], b: [Boolean]}
+ noise   | [Boolean] | true
+ render  | [String] | "normal"
+ threshold | [Number] | 250
+ gamma   | [Number::Float] | 0.7
+ size    | [Object::height:[Number], width:[Number]]  {height: 640 , width: 960 }
+ color   | [Object::r:[Number], g:[Number], b:[Number]] | {r: 205, g:16 , b: 66}
+ swing   | [Object::r:[Number], g:[Number], b:[Number]]  |{r: 205, g:16 , b: 66}
+ channel | [Object::r:[Boolean], g:[Boolean], b:[Boolean]]  {r: false, g: true, b: false}
 
 I recommend a structure like so for the effects function
 
